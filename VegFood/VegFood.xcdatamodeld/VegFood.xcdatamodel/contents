@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Beans_Aloo" representedClassName="Beans_Aloo" syncable="YES">
+        <attribute name="ingredients" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="preparation" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Cabbage_potatoes" representedClassName="Cabbage_potatoes" syncable="YES">
+        <attribute name="ingredients" attributeType="String" syncable="YES"/>
+        <attribute name="preparation" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Capsicum_Potato" representedClassName="Capsicum_Potato" syncable="YES">
+        <attribute name="ingredients" attributeType="String" syncable="YES"/>
+        <attribute name="preparation" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Carrots_Peas" representedClassName="Carrots_Peas" syncable="YES">
+        <attribute name="ingredients" attributeType="String" syncable="YES"/>
+        <attribute name="preparation" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Cauliflower_peas_Potatoes" representedClassName="Cauliflower_peas_Potatoes" syncable="YES">
+        <attribute name="ingredients" attributeType="String" syncable="YES"/>
+        <attribute name="preparation" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Cheese" representedClassName="Cheese" syncable="YES">
+        <attribute name="recipes" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Cheese_Peas_Curry" representedClassName="Cheese_Peas_Curry" syncable="YES">
+        <attribute name="ingredients" attributeType="String" syncable="YES"/>
+        <attribute name="preparation" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Curry" representedClassName="Curry" syncable="YES">
+        <attribute name="recipes" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Dal_Mkhni" representedClassName="Dal_Mkhni" syncable="YES" codeGenerationType="class"/>
+    <entity name="Dishes" representedClassName="Dishes" syncable="YES">
+        <attribute name="dishesName" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Fenugreek_Aloo" representedClassName="Fenugreek_Aloo" syncable="YES">
+        <attribute name="ingredients" attributeType="String" syncable="YES"/>
+        <attribute name="preparation" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Fry_masala_Okra" representedClassName="Fry_masala_Okra" syncable="YES">
+        <attribute name="ingredients" attributeType="String" syncable="YES"/>
+        <attribute name="preparation" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Green_Beans" representedClassName="Green_Beans" syncable="YES">
+        <attribute name="ingredients" attributeType="String" syncable="YES"/>
+        <attribute name="preparation" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Jeera_Aloo" representedClassName="Jeera_Aloo" syncable="YES">
+        <attribute name="ingredients" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="preparation" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Naan" representedClassName="Naan" syncable="YES">
+        <attribute name="recipes" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Okra_onion" representedClassName="Okra_onion" syncable="YES">
+        <attribute name="ingredients" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="preparation" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Okra_Stuffed" representedClassName="Okra_Stuffed" syncable="YES">
+        <attribute name="ingredients" attributeType="String" syncable="YES"/>
+        <attribute name="preparation" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Peas_Carrot_Cheese" representedClassName="Peas_Carrot_Cheese" syncable="YES">
+        <attribute name="ingredients" attributeType="String" syncable="YES"/>
+        <attribute name="preparation" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Rice" representedClassName="Rice" syncable="YES">
+        <attribute name="recipes" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Snacks" representedClassName="Snacks" syncable="YES">
+        <attribute name="recipes" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Vegetables" representedClassName="Vegetables" syncable="YES">
+        <attribute name="ingredients" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="preparation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recipes" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Yogurt" representedClassName="Yogurt" syncable="YES">
+        <attribute name="recipes" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Beans_Aloo" positionX="18" positionY="72" width="128" height="75"/>
+        <element name="Cabbage_potatoes" positionX="36" positionY="90" width="128" height="75"/>
+        <element name="Capsicum_Potato" positionX="27" positionY="81" width="128" height="75"/>
+        <element name="Carrots_Peas" positionX="45" positionY="108" width="128" height="75"/>
+        <element name="Cauliflower_peas_Potatoes" positionX="0" positionY="54" width="128" height="75"/>
+        <element name="Cheese" positionX="0" positionY="54" width="128" height="60"/>
+        <element name="Cheese_Peas_Curry" positionX="9" positionY="72" width="128" height="75"/>
+        <element name="Curry" positionX="-18" positionY="36" width="128" height="60"/>
+        <element name="Dal_Mkhni" positionX="9" positionY="81" width="128" height="45"/>
+        <element name="Dishes" positionX="-54" positionY="-9" width="128" height="60"/>
+        <element name="Fenugreek_Aloo" positionX="18" positionY="81" width="128" height="75"/>
+        <element name="Fry_masala_Okra" positionX="27" positionY="90" width="128" height="75"/>
+        <element name="Green_Beans" positionX="36" positionY="99" width="128" height="75"/>
+        <element name="Jeera_Aloo" positionX="9" positionY="63" width="128" height="75"/>
+        <element name="Naan" positionX="36" positionY="90" width="128" height="60"/>
+        <element name="Okra_onion" positionX="45" positionY="108" width="128" height="75"/>
+        <element name="Okra_Stuffed" positionX="54" positionY="117" width="128" height="75"/>
+        <element name="Peas_Carrot_Cheese" positionX="0" positionY="72" width="128" height="75"/>
+        <element name="Rice" positionX="18" positionY="72" width="128" height="60"/>
+        <element name="Snacks" positionX="-9" positionY="45" width="128" height="60"/>
+        <element name="Vegetables" positionX="-36" positionY="18" width="128" height="90"/>
+        <element name="Yogurt" positionX="0" positionY="54" width="128" height="60"/>
+    </elements>
+</model>
